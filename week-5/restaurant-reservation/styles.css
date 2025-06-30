@@ -1,0 +1,71 @@
+/*
+  Pragmatic JavaScript
+  Chapter 2
+  Programming Assignment
+
+  Author: Cesar Acevedo
+  Date: 06/29/25
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+/*   dark blue themed, red was too bright on the eyes. used a dark blue theme color pallette */
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #2d383c;
+  color: #f0f4f8;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #192428;
+  border: 1px solid #414c50;
+  border-radius: 6px;
+}
+
+label {
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  background-color: #414c50;
+  color: #ffffff;
+  border: 1px solid #0784b5;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #39ace7;
+  color: #192428;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0784b5;
+  color: #ffffff;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #414c50;
+  background-color: #414c50;
+  color: #39ace7;
+}
+
+
