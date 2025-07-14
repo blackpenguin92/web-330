@@ -1,0 +1,36 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author: cesar acevedo
+  Date: 07.13.25
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: beige;
+}
+
+/* when errors occur */
+#error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.chef-container {
+  border: 2px solid;
+  border-color: lightseagreen;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
